@@ -12,6 +12,10 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
+#search-icon {
+    grid-column: 2;
+    
+}
 
 .header {
     padding-left: 4px;
