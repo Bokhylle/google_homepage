@@ -1,16 +1,31 @@
 /* CSS styles */
+.container {
+    width: 100%;
+    height: auto;
+}
+#searchbarform {
+    display: flex;
+    width: 400px;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .header {
     padding-left: 4px;
     padding-right: 4px;
     position: relative;
     text-align: right;
-    height: 20px;
-    margin-top: 0px;
+    height: 60px;
+    bottom: 0px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-self: flex-end;
     font-size: 12px;
+    
+}
+.header-text {
+    padding-top: 30px;
 }
 .header-img {
     padding-left: 4px;
@@ -29,6 +44,7 @@ a:hover {
 .logo {
     display: block;
     margin: 0 auto;
+    padding-top: 100px;
     
 }
 img {
