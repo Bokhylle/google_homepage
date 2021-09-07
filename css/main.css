@@ -1,7 +1,9 @@
 /* CSS styles */
 <style>
 .header {
-   
+    position: relative;
+    text-align: right;
+    color: red;
 }
 a:link {
     color: rgb(0, 0, 0);
