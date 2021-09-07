@@ -1,7 +1,8 @@
 /* CSS styles */
-<style>
+
 .header {
-    display: flex;
+    padding-left: 4px;
+    padding-right: 4px;
     position: relative;
     text-align: right;
 
@@ -21,5 +22,3 @@ img {
     margin: inherit;
 
 }
-
-</style>
