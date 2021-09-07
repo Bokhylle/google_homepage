@@ -8,7 +8,7 @@ html {
     display: grid;
 }
 #searchbarform {
-    width: 48%;
+    width: 580px;
     justify-content: center;
     margin: 0 auto;
 
