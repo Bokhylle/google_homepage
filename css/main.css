@@ -2,12 +2,26 @@
 html {
     font-family: Roboto;
 }
+:root {
+    --var-test-color: black;
+}
+
+#backgrounds {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgb(167, 199, 231);
+    opacity: .5;
+    top: 0;
+    left: 0;
+}
 .background-picture {
-    opacity: .4;
+    opacity: .8;
     position: absolute;
     margin-top: 0px;
     width: 100%;
-    z-index: -1;
+    z-index: -2;
     overflow-x: auto;
 }
 
@@ -125,7 +139,7 @@ input:focus {
 button {
     outline: none;
     border-style: none;
-    background-color: rgb(247, 247, 247);
+    background-color: --var-test-color;
     font-family: Roboto;
     color: rgb(77, 76, 76)
 }
@@ -153,7 +167,8 @@ img {
     grid-template-rows: 1fr;
     position: fixed;
     bottom: 0px;
-    background-color: rgb(247, 247, 247);
+    left: 0;
+    background-color: var(--var-test-color);
     padding: 20px;
     padding-top: 10px;
     width: 100%;
