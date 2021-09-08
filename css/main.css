@@ -5,9 +5,10 @@ html {
 .background-picture {
     opacity: .4;
     position: absolute;
-    top: 1%;
+    margin-top: 0px;
     width: 100%;
     z-index: -1;
+    overflow-x: auto;
 }
 
 .container {
